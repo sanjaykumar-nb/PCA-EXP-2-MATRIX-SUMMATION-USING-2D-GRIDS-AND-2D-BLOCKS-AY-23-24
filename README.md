@@ -1,4 +1,4 @@
-<img width="1452" height="168" alt="image" src="https://github.com/user-attachments/assets/b44af523-0b61-4236-ac6e-535662da5ef7" /># PCA-EXP-2-Matrix-Summation-using-2D-Grids-and-2D-Blocks-AY-23-24
+# PCA-EXP-2-Matrix-Summation-using-2D-Grids-and-2D-Blocks-AY-23-24
 
 <h3>AIM: To perform  matrix summation with a 2D grid and 2D blocks and adapting it to integer matrix addition.</h3>
 <h3>SANJAYKUMAR N B</h3>
@@ -35,7 +35,7 @@ Google Colab with NVCC Compiler
 12.	Reset the device: Reset the device using cudaDeviceReset to ensure that all resources are cleaned up before the program exits.
 
 ## PROGRAM:
-
+```
 !pip install git+https://github.com/andreinechaev/nvcc4jupyter.git
 %load_ext nvcc4jupyter
 
@@ -294,7 +294,7 @@ CHECK(cudaDeviceSynchronize());
 
     return (0);
 }
-
+```
 ## OUTPUT:
 <img width="1452" height="168" alt="image" src="https://github.com/user-attachments/assets/f872cf92-3a35-4520-8b46-28d288bfbc84" />
 
